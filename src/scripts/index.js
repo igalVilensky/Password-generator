@@ -1,3 +1,6 @@
+const userNum = document.querySelector("#numSelect option").value;
+console.log(userNum);
+
 function makeid(num) {
   let result = "";
   let characters =
@@ -12,7 +15,7 @@ function makeid(num) {
   return result;
 }
 
-console.log("-----------------------------");
+/* console.log("-----------------------------");
 console.log(makeid(1));
 console.log(makeid(200));
-console.log(makeid(12));
+console.log(makeid(12)); */
