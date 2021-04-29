@@ -14,13 +14,16 @@ function makeid(num) {
     document.querySelector(".result-container").style.marginTop = "1.3rem";
     return (document.querySelector(".result-container").innerHTML =
       "The password should be between 8 and 12 character");
-  }
-
-  for (let i = 0; i < num; i++) {
-    result += characters.charAt(Math.floor(Math.random() * charactersLength));
-    let newEll = document.createElement("h1");
-    newEll.innerHTML = result;
-    newEll.classList.add("result-container");
+  } else if (num == isNaN) {
+    return (document.querySelector(".result-container").innerHTML =
+      "Please type only digits");
+  } else {
+    for (let i = 0; i < num; i++) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+      let newEll = document.createElement("h1");
+      newEll.innerHTML = result;
+      newEll.classList.add("result-container");
+    }
   }
   return (document.querySelector(".result-container").innerHTML = result);
 }
