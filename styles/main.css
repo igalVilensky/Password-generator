@@ -5,4 +5,11 @@ body h1 {
   color: white;
 }
 
+.result-container {
+  margin-top: 20px;
+  background-color: white;
+  width: 200px;
+  height: 100px;
+}
+
 /*# sourceMappingURL=main.css.map */
