@@ -1,15 +1,40 @@
 body {
-  background-color: #5f5f5f;
+  background-color: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body h1 {
   color: white;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .result-container {
   margin-top: 20px;
   background-color: white;
-  width: 200px;
+  width: 40rem;
   height: 100px;
+}
+
+.result-container > h1 {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=main.css.map */
